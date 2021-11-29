@@ -3,7 +3,7 @@ import Feed from '../components/Feed'
 import Header from '../components/Header'
 function index() {
   return (
-    <>
+    <div className='bg-gray50 h-screen overflow-y-scroll scrollbar-hide' >
     <head>
       <title>Instagram</title>
       <description>Instagram clone build using next js, tailwindcss, and firebase</description>
@@ -12,7 +12,7 @@ function index() {
       <Header/>
       <Feed />
     </div>
-    </>
+    </div>
   )
 }
 
